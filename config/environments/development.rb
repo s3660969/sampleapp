@@ -7,9 +7,7 @@ Rails.application.configure do
   
     config.action_mailer.raise_delivery_errors = true
   config.action_mailer.delivery_method = :test
-  host = '97d47bbaa2554fc4b803a867594f8c83.vfs.cloud9.us-east-1.amazonaws.com' 
-  # Don't use this literally; use your local dev host instead
-  # Use this on the cloud IDE.
+  host = 'radiant-headland-99835.herokuapp.com'
   config.action_mailer.default_url_options = { host: host, protocol: 'https' }
   # Use this if developing on localhost.
   # config.action_mailer.default_url_options = { host: host, protocol: 'http' }
